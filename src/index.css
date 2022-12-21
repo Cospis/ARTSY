@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "satoshi";
+  src: local("satoshi"),
+   url("./components/fonts/satoshi.ttf") format("truetype");
+  }
+
+
+  *{
+    font-family: "satoshi";
+    padding: 0;
+    margin: 0;
+  }
