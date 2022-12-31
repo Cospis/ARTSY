@@ -2,10 +2,7 @@ import "./FeaturedProduct.css";
 import boolimg from "./imgs/bool.png";
 import boolimg2 from "./imgs/bool2.png";
 import boolimg3 from "./imgs/bool3.png";
-import pimg1 from "./imgs/pimage1.png";
-import pimg2 from "./imgs/pimage2.png";
-import pimg3 from "./imgs/pimage3.png";
-import pimg4 from "./imgs/pimage4.png";
+import pimg from "./imgs/pimage.png";
 import circle from "./imgs/circle.svg";
 import mcircle from "./imgs/mcircle.svg";
 const FeaturedProjects = () => {
@@ -28,12 +25,8 @@ const FeaturedProjects = () => {
               urna, porttitor rhoncus dolor pur
             </p>
             <div className="creators">
-              <div className="pimages">
-                <img src={pimg1} alt="" id="st" />
-                <img src={pimg2} alt="" id="st2" />
-                <img src={pimg3} alt="" id="st3" />
-                <img src={pimg4} alt="" id="st4" />
-              </div>
+              <img src={pimg} alt="" />
+
               <p>64 major creators</p>
               <img src={circle} alt="" id="circle" />
             </div>
@@ -51,12 +44,8 @@ const FeaturedProjects = () => {
               urna, porttitor rhoncus dolor pur
             </p>
             <div className="creators">
-              <div className="pimages">
-                <img src={pimg1} alt="" id="st" />
-                <img src={pimg2} alt="" id="st2" />
-                <img src={pimg3} alt="" id="st3" />
-                <img src={pimg4} alt="" id="st4" />
-              </div>
+              <img src={pimg} alt="" />
+
               <p>64 major creators</p>
               <img src={circle} alt="" id="circle" />
             </div>
@@ -84,12 +73,8 @@ const FeaturedProjects = () => {
               urna, porttitor rhoncus dolor pur
             </p>
             <div className="creators">
-              <div className="pimages">
-                <img src={pimg1} alt="" id="st" />
-                <img src={pimg2} alt="" id="st2" />
-                <img src={pimg3} alt="" id="st3" />
-                <img src={pimg4} alt="" id="st4" />
-              </div>
+              <img src={pimg} alt="" />
+
               <p>64 major creators</p>
               <img src={circle} alt="" id="circle" />
             </div>
