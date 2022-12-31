@@ -5,7 +5,7 @@
   padding: 30px 0px;
 }
 .fimgtext {
-  padding: 60px 0px;
+  padding: 30px 0px;
   display: flex;
   gap: 50px;
 }
@@ -24,10 +24,7 @@
 .creators p {
   white-space: nowrap;
 }
-.mh1,
-#mcircle {
-  display: none;
-}
+
 @media screen and (max-width: 700px) {
   .featuredprojects {
     padding: 30px 20px;
@@ -43,8 +40,10 @@
   #rev {
     flex-direction: column-reverse;
   }
-  #circle,
-  .ftext h1 {
+  .fimg {
+    position: relative;
+  }
+  #circle {
     display: none;
   }
   .fimgtext p {
@@ -54,16 +53,18 @@
     padding-top: 20px;
   }
   .mh1 {
+    position: absolute;
     color: white;
-    position: relative;
-    top: -170px;
+    top: 15px;
+    left: 40px;
     text-align: center;
   }
   #mcircle {
-    position: relative;
+    position: absolute;
     width: auto;
     float: right;
-    top: -150px;
+    height: 50px;
+    top: 75px;
     right: 20px;
   }
 }

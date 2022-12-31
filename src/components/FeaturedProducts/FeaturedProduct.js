@@ -52,7 +52,7 @@ const FeaturedProjects = () => {
           </div>
           <div className="fimg">
             <img src={boolimg2} alt="" />
-            <h1 className="mh1">Boolean Egyptian</h1>
+            <h1 className="mh1">Are We There Yet?</h1>
             <img src={mcircle} alt="" id="mcircle" />
           </div>
         </div>
@@ -62,7 +62,7 @@ const FeaturedProjects = () => {
         <div className="fimgtext">
           <div className="fimg">
             <img src={boolimg3} alt="" />
-            <h1 className="mh1">Boolean Egyptian</h1>
+            <h1 className="mh1">Oloibiri 1997</h1>
             <img src={mcircle} alt="" id="mcircle" />
           </div>
           <div className="ftext">
