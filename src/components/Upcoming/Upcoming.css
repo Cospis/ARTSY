@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 .upcomingauction {
   background: linear-gradient(
     99.99deg,
@@ -6,4 +7,56 @@
     rgba(192, 86, 9, 0.49) 111.62%
   );
   padding: 0px 120px;
+  position: relative;
+}
+.upcomingauction h1 {
+  color: white;
+  padding: 10px 0px;
+}
+.bgtext {
+  position: absolute;
+  bottom: 50px;
+  left: 250px;
+  color: white;
+  font-family: "Bellefair", serif;
+}
+#index {
+  position: absolute;
+  bottom: 100px;
+  left: 140px;
+  font-size: 100px;
+  color: white;
+}
+.bgtext li {
+  font-size: 30px;
+  width: 350px;
+}
+.upcomingauction img {
+  width: 100%;
+}
+.ptext {
+  display: flex;
+  gap: 200px;
+}
+.ptextseg {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+}
+.xclus {
+  flex: 1;
+}
+
+.ptextseg a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  align-self: flex-end;
+}
+.ptextseg button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
 }
