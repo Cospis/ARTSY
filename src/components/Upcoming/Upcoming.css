@@ -15,32 +15,39 @@
 }
 .bgtext {
   position: absolute;
-  bottom: 50px;
-  left: 250px;
+  bottom: 15%;
+  left: 20%;
   color: white;
   font-family: "Bellefair", serif;
 }
 #index {
   position: absolute;
-  bottom: 100px;
-  left: 140px;
-  font-size: 100px;
+  bottom: 20%;
+  left: 12%;
+  font-size: 7vw;
   color: white;
 }
 .bgtext li {
-  font-size: 30px;
-  width: 350px;
+  font-size: 3.5vw;
+  width: 50%;
 }
-.upcomingauction img {
+.bgtext P,
+.xclus P {
+  font-size: 1vw;
+}
+#bg {
   width: 100%;
+}
+#mbg {
+  display: none;
 }
 .ptext {
   display: flex;
-  gap: 200px;
+  gap: 10%;
 }
 .ptextseg {
   display: flex;
-  gap: 30px;
+  gap: 9%;
   flex: 1;
 }
 .xclus {
@@ -59,4 +66,51 @@
   border: 1px solid white;
   color: white;
   background-color: transparent;
+}
+@media screen and (max-width: 700px) {
+  .upcomingauction {
+    padding: 30px;
+  }
+  .upcomingauction img {
+    width: 100%;
+  }
+  #mbg {
+    display: block;
+    width: 100%;
+  }
+  #bg {
+    display: none;
+  }
+  .bgtext li {
+    width: 100%;
+    font-size: inherit;
+  }
+  .bgtext {
+    top: 15%;
+  }
+  .ptext {
+    display: block;
+  }
+  .upcomingauction h1 {
+    display: none;
+  }
+  .bgtext P,
+  .xclus P {
+    font-size: 3vw;
+    width: 85%;
+  }
+  .ptextseg {
+    justify-content: flex-end;
+    width: 85%;
+    align-items: center;
+  }
+  .ptextseg {
+    align-self: center;
+  }
+  #index {
+    top: 23%;
+  }
+  .xclus {
+    padding-bottom: 20px;
+  }
 }

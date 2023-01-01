@@ -1,10 +1,12 @@
 import "./Upcoming.css";
 import bg from "./Imgs/background.png";
+import mbg from "./Imgs/mbg.png";
 const Upcomingauction = () => {
   return (
     <div className="upcomingauction">
       <h1>See Upcoming Auctions and Exhibitions</h1>
-      <img src={bg} alt="Bg" />
+      <img src={bg} alt="Bg" id="bg" />
+      <img src={mbg} alt="mBg" id="mbg" />
       <p id="index">01</p>
       <div className="bgtext">
         <ul>
